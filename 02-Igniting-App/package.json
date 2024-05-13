@@ -2,9 +2,11 @@
   "name": "02-igniting-app",
   "version": "1.0.0",
   "description": "A basic react app",
-  "main": "App.js",
+
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "npx parcel index.html",
+    "build":"npx parcel build index.html"
   },
   "keywords": [
     "react"
