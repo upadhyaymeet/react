@@ -3029,14 +3029,93 @@ const HeadingComponent = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         columnNumber: 5
     }, undefined);
 _c1 = HeadingComponent;
+// Assigments 
+// const nestedHeader = React.createElement(
+//     "div",
+//     {className:"title"},[
+//         React.createElement("h1", {}, "H1 heading"),
+//         React.createElement("h2", {}, "H2 heading"),
+//         React.createElement("h3", {}, "H3 heading"),
+//     ]
+// )
+// const h1 = <h1>H1 heading</h1>
+// const h2 = <h2>H1 heading</h2>
+// const h3 = <h3>H1 heading</h3>
+// const nestedHeader = (
+//     <div className="title">
+//         <h1>Heading H1</h1>
+//         <h2>Heading H2</h2>
+//         <h3>Heading H3</h3>
+//     </div>
+// )
+// const NestedHeader = () =>(
+//     <div className="title">
+//         <h1>Heading H1</h1>
+//         <h1>Heading H2</h1>
+//         <h1>Heading H3</h1>
+//     </div>
+// )
+// const TitleComponent = () => (
+//     <div>
+//         <NestedHeader />
+//     </div>
+// )
+const Logo = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+        className: "logo",
+        src: "https://cdn.vectorstock.com/i/1000v/88/58/laurel-wreath-simple-concept-logo-vector-4028858.avif"
+    }, void 0, false, {
+        fileName: "App.js",
+        lineNumber: 84,
+        columnNumber: 5
+    }, undefined);
+_c2 = Logo;
+const HeaderComponent = ()=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+        className: "container",
+        children: [
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(Logo, {}, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 89,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("input", {
+                type: "text",
+                placeholder: "enter a search box"
+            }, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 90,
+                columnNumber: 9
+            }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
+                className: "user-icon",
+                src: "https://cdn.vectorstock.com/i/1000v/88/58/laurel-wreath-simple-concept-logo-vector-4028858.avif"
+            }, void 0, false, {
+                fileName: "App.js",
+                lineNumber: 91,
+                columnNumber: 9
+            }, undefined)
+        ]
+    }, void 0, true, {
+        fileName: "App.js",
+        lineNumber: 88,
+        columnNumber: 5
+    }, undefined);
+_c3 = HeaderComponent;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 // root.render(heading)
 // root.render(elem)
 // root.render(<HeadingComponent />)
-root.render(HeadingComponent());
-var _c, _c1;
+// root.render(HeadingComponent())
+// root.render(nestedHeader)
+root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeaderComponent, {}, void 0, false, {
+    fileName: "App.js",
+    lineNumber: 103,
+    columnNumber: 13
+}, undefined));
+var _c, _c1, _c2, _c3;
 $RefreshReg$(_c, "Title");
 $RefreshReg$(_c1, "HeadingComponent");
+$RefreshReg$(_c2, "Logo");
+$RefreshReg$(_c3, "HeaderComponent");
 
   $parcel$ReactRefreshHelpers$c1db.postlude(module);
 } finally {
