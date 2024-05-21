@@ -1,0 +1,58 @@
+.header-container {
+  border: 2px solid red;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+  display: flex;
+}
+
+.logo-container img {
+  width: 100px;
+}
+
+.nav-items ul {
+  gap: 40px;
+  list-style: none;
+  display: flex;
+}
+
+.nav-items ul li {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.login-btn {
+  cursor: pointer;
+  padding: 8px;
+}
+
+.login-btn:hover {
+  background-color: pink;
+}
+
+.body-container {
+  margin-top: 10px;
+}
+
+.filter-container {
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  display: flex;
+}
+
+.filter-btn button {
+  cursor: pointer;
+  background-color: orange;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.filter-btn button:hover {
+  color: #fff;
+  background-color: #546241;
+}
+/*# sourceMappingURL=index.9e4c6fd2.css.map */

@@ -1,0 +1,59 @@
+.header-container{
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.logo-container img{
+    width: 100px;
+}
+
+
+.nav-items ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-items ul li{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.login-btn{
+    padding: 8px;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    background-color: pink;
+}
+
+.body-container{
+    /* border: 2px solid black; */
+    margin-top: 10px;
+}
+
+.filter-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.filter-btn button{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.filter-btn button:hover{
+    background-color: #546241;
+    color: white;
+}
