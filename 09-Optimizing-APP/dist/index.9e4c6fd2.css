@@ -1,0 +1,100 @@
+.header-container {
+  border: 2px solid red;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px;
+  display: flex;
+}
+
+.logo-container img {
+  width: 100px;
+}
+
+.nav-items ul {
+  gap: 40px;
+  list-style: none;
+  display: flex;
+}
+
+.nav-items ul li {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.login-btn {
+  cursor: pointer;
+  padding: 8px;
+}
+
+.login-btn:hover {
+  background-color: pink;
+}
+
+.body-container {
+  margin-top: 10px;
+}
+
+.filter-container {
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  display: flex;
+}
+
+.filter-btn button {
+  cursor: pointer;
+  background-color: orange;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.filter-btn button:hover {
+  color: #fff;
+  background-color: #546241;
+}
+
+.res-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+  display: flex;
+}
+
+.res-card {
+  background-color: #f0f0f0;
+  border: 2px solid #000;
+  width: 300px;
+  height: 400px;
+  padding: 5px;
+}
+
+.res-img img {
+  width: 300px;
+  height: 200px;
+}
+
+.res-info div {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+.shimmer-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 70px;
+  display: flex;
+}
+
+.shimmer-card {
+  background-color: #f0f0f0;
+  border: 2px solid #000;
+  width: 300px;
+  height: 400px;
+  padding: 5px;
+}
+/*# sourceMappingURL=index.9e4c6fd2.css.map */
